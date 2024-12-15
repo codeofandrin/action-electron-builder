@@ -6,6 +6,9 @@ inputs:
   github_token:
     description: GitHub authentication token
     required: true
+  github_release_token:
+    description: GitHub authentication token for releases
+    required: false
   mac_certs:
     description: Base64-encoded code signing certificate for macOS
     required: false
